@@ -1,0 +1,20 @@
+1. En App siempre Inyectar componentes. No usarlo "Como componente", debería ser una gran concatenación de componentes!
+
+2. app.js useEffect, "Por que dejaste Corchetes vacios?" Fijate lo que pasa en la consola cuando pide las coordenadas!
+
+3. Que pensas de lo siguiente.
+    Definir la parte del Path estatica en el archivo .env y luego llamarla para usar ese path y concatener lo restante cuando haga falta?
+    {process.env.NOMBRE_VARIABLE}
+
+4. Acostumbrase a indentar todo
+
+5. El navbar cuando se hace mobile, el logo sandwich se va del centro. Corregir
+
+6. Cuando lo llevamos a vista "Tablet", el contenedor del clima rompe. Corregir
+
+6. No olvidarse de borrar los console logs. Hay mejores maneras de DEbuguear
+
+7. Las variables que son constantes declararlas con const. Lo digo por let coords = position.coords
+
+
+
